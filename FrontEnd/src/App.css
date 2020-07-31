@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+}
+#root {
+  height: 100%;
+}
+.Nav {
+  padding: 5px;
+  width: 100%;
+  background-color: #db2828;
+  color: white;
+  padding-left: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 6px grey;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  z-index: 2;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid steelblue;
+  border-radius: 4px;
+}
+select:focus {
+  outline: none;
+}
+.btn {
+  background-color: #db2828;
+  color: white;
+  border: none;
+  outline: none;
+  float: left;
+  clear: both;
+}
+.btn:hover {
+  background-color: #c91f1f;
+}
+/* The container */
+.round {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.round input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.right {
+  float: right;
+  margin-top: -5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: -4px;
+  left: 0px;
+  height: 25px;
+  width: 25px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+/* On mouse-over, add a grey background color */
+.round:hover input[type="checkbox"] ~ .checkmark {
+  background-color: whitesmoke;
+}
+
+/* When the checkbox is checked, add a blue background */
+.round input:checked[type="checkbox"] ~ .checkmark {
+  background-color: #db2828;
+  border: 4px double white;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  background-color: #db2828;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+  z-index: 2;
+}
+.AppName {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}

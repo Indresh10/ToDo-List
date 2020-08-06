@@ -14,4 +14,4 @@
 ScreenShot of the app
 ![App Screenshot](/app.jpg)
 
-Link to the Site **http://indresh-todolist.surge.sh**
+Link to the Site _http://indresh-todolist.surge.sh{target="_blank"}_

@@ -11,7 +11,8 @@
 - Rest API
 - Language (Python Flask)
 
-ScreenShot of the app
+## ScreenShot of the app
+
 ![App Screenshot](/app.jpg)
 
-Link to the Site _http://indresh-todolist.surge.sh{target="_blank"}_
+> Link to the Site _http://indresh-todolist.surge.sh{target="_blank"}_

@@ -15,4 +15,4 @@
 
 ![App Screenshot](/app.jpg)
 
-> Link to the Site _[WebAPP](http://indresh-todolist.surge.sh){target="\_blank"}_
+> Link to the Site <a href="http://indresh-todolist.surge.sh" target="_blank">http://indresh-todolist.surge.sh </a>
